@@ -17,7 +17,9 @@ def main():
     # Set page configuration
     st.set_page_config(page_title="TutorMind", layout="wide")
     st.title("Welcome to TutorMind: Your AI-Powered Study Assistant Suite")
+    st.title("BY ROHIT KRISHNAN")
     st.sidebar.title("Navigation")
+    st.sidebar.title("© 2025 Rohit Krishnan. All rights reserved.")
 
     # Sidebar navigation
     page = st.sidebar.radio("Choose an option:", 
